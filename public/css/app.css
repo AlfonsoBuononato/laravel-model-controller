@@ -1,0 +1,30 @@
+/* HEADER */
+h1 {
+  text-align: center;
+}
+
+/* DEFAULT */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MAIN */
+.container {
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards ul {
+  width: calc(100% / 5 - 30px);
+  margin: 15px;
+}
+.cards li {
+  list-style: none;
+}
